@@ -1,0 +1,7 @@
+a{
+    text-decoration: none;
+    color: rgb(10, 240, 10);
+}
+a:hover{
+    color: blue;
+}

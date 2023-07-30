@@ -1,0 +1,103 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* you should set your webpage with 0 margin and padding before starting */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(206, 206, 0);
+}
+
+h1{
+    color: rgb(118, 6, 255);
+}
+
+body{
+    background-color: rgb(235, 231, 219);
+    color: rgb(14, 0, 0);
+    font-family: 'Dancing Script', cursive;
+    line-height: 25px;
+    margin: 10px;
+}
+.box-1{
+    background-color: rgb(197, 218, 240);
+    width: 50%;
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.box-1 h1{
+    text-align: center;
+}
+
+
+.box-2{
+    width: 50%;
+    margin: auto;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 10px;
+}
+.box-2 h1{
+    text-align: center;
+}
+.categories{
+    border: 2px solid blue;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    list-style: none;
+    list-style-image: url(images\check.png);
+    padding: 0;
+}
+.categories li{
+    padding: 2px;
+    border-bottom: 2px solid green;
+    
+}
+.form{
+    width: 50%;
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.form label{
+    display: block;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+.form input{
+    padding: 8px;
+    width: 95%;
+    
+    
+}
+.button{
+    padding: 4px;
+    width: 10%;
+    color: white;
+    background-color: rgb(14, 149, 246);
+    border: 2px solid rgb(14, 20, 2);
+    display: block;
+    
+}
+.button:hover{
+    background-color: rgb(199, 129, 129);
+}
+
